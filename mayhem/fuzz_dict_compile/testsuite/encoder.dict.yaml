@@ -1,0 +1,21 @@
+---
+name: fuzzdict
+version: "1"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+  - weight
+  - stem
+encoder:
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_in_range: [3, 10]
+      formula: "AaBaCaZa"
+...
+你	ni	100
+好	hao	90
+世界	shi jie	80
+你好世界	ni hao shi jie	7

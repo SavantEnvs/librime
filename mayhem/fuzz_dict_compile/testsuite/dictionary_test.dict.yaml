@@ -1,0 +1,71 @@
+# Rime testing dictionary (exerpt)
+# encoding: utf-8
+
+# The original data is imported from android open source project.
+# http://android.git.kernel.org/?p=platform/packages/inputmethods/PinyinIME.git
+
+---
+name: dictionary_test
+version: "0.1"
+sort: by_weight  # by_weight / original
+...
+
+巴	ba	3193
+爸	ba	3625
+八	ba	6677
+把	ba	165484
+吧	ba	385205
+百	bai	4588
+白	bai	15236
+搬	ban	3708
+般	ban	4577
+板	ban	5076
+班	ban	11860
+半	ban	13186
+版	ban	17087
+办	ban	17518
+棒	bang	2554
+帮	bang	30125
+爆	bao	4354
+保	bao	4532
+抱	bao	4769
+宝	bao	5580
+报	bao	11312
+包	bao	15389
+笨	ben	5349
+本	ben	24833
+杯	bei	2948
+倍	bei	3368
+背	bei	5608
+北	bei	6464
+呗	bei	8019
+被	bei	138128
+逼	bi	3237
+笔	bi	3249
+必	bi	3878
+比	bi	68654
+编	bian	2919
+遍	bian	3213
+变	bian	13218
+边	bian	14352
+便	bian	16095
+标	biao	3068
+表	biao	18141
+别	bie	48130
+兵	bing	4611
+冰	bing	4841
+病	bing	8090
+并	bing	79035
+博	bo	5007
+波	bo	5395
+步	bu	3931
+布	bu	4781
+补	bu	7071
+部	bu	13825
+不	bu	590643
+爬	pa	3501
+怕	pa	22787
+牌	pai	5771
+排	pai	5969
+派	pai	6066
+拍	pai	18299

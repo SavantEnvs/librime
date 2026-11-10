@@ -1,0 +1,72 @@
+# encoding: utf-8
+#
+# 單字碼表《五倉世紀》來自 www.chinesecj.com
+#
+# 又：
+# 倉頡五代構詞碼碼表
+# 由惜緣兄製作
+# 佛振修訂於 2012-04-08
+#
+# License: GPL
+#
+# 說明：
+# 詞彙編碼中，單字的取碼有幾種情況：
+# 取首碼、取尾碼、取首尾二碼、取首、次、尾三碼。
+# 輔助字形中的單字，在詞彙中直接用倉頡字母而不拆開；
+# 包含結構的單字，被包含部分的編碼位於'符號之後，可據此取得尾碼。
+#
+
+---
+name: "cangjie5"
+version: "0.17"
+sort: by_weight
+use_preset_vocabulary: true
+max_phrase_length: 7
+min_phrase_weight: 100
+columns:
+  - text
+  - code
+  - stem
+encoder:
+  exclude_patterns:
+    - '^x.*$'
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAzBaBbBz"
+    - length_equal: 3
+      formula: "AaAzBaBzCz"
+    - length_in_range: [4, 10]
+      formula: "AaBzCaYzZz"
+  tail_anchor: "'"
+...
+
+日	a
+曰	a
+昌	aa
+昍	aa
+晶	aaa
+晿	aaa
+曑	aaah
+曡	aaam
+曐	aaam
+曟	aaav
+覸	aabuu
+焸	aaf
+鷼	aahaf
+暒	aahm
+暥	aajv
+暘	aamh
+晘	aamj
+晹	aaph
+暍	aapv
+曝	aate
+暻	aayf
+明	ab
+冐	ab
+暝	abac
+曖	abbe
+暧	abbe
+盟	abbt
+覵	abbuu
+焽	abf

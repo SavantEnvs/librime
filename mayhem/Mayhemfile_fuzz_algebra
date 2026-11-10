@@ -1,0 +1,10 @@
+project: savantenvs/librime
+target: fuzz_algebra
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_algebra/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_algebra
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/mayhem/fuzz_algebra/fuzz_algebra.dict

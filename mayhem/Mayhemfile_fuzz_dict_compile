@@ -1,0 +1,10 @@
+project: savantenvs/librime
+target: fuzz_dict_compile
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_dict_compile/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_dict_compile
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/mayhem/fuzz_dict_compile/fuzz_dict_compile.dict

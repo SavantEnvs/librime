@@ -1,0 +1,5 @@
+zhi chi shi
+fuzz/^([zcs])h/$1/
+derive/^([zcs])$/$1h/
+abbrev/^(.).+$/$1/
+erase/^x$/

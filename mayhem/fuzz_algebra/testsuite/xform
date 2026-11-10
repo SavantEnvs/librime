@@ -1,0 +1,3 @@
+nihao zhongguo
+xform/^([nl])i/$1ee/
+xform/(ng|n)$/<$1>/

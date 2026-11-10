@@ -1,0 +1,17 @@
+ni hao shi jie zhong guo nve ju yue
+erase/^xx$/
+abbrev/^([a-z]).+$/$1/
+abbrev/^([zcs]h).+$/$1/
+derive/^([nl])ve$/$1ue/correction
+derive/^([jqxy])u/$1v/correction
+derive/un$/uen/correction
+derive/ui$/uei/correction
+derive/iu$/iou/correction
+derive/([aeiou])ng$/$1gn/correction
+derive/([dtngkhrzcs])o(u|ng)$/$1o/correction
+derive/ong$/on/correction
+derive/ao$/oa/correction
+derive/([iu])a(o|ng?)$/a$1$2/correction
+xform/([nljqxy])v/$1ü/
+xform/([nl])v/$1ü/
+xform/([nl])v/$1ü/

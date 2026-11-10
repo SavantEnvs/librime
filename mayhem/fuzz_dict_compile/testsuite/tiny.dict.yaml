@@ -1,0 +1,8 @@
+---
+name: fuzzdict
+version: "1"
+sort: by_weight
+...
+你	ni	100
+好	hao	90
+你好	ni hao	80
